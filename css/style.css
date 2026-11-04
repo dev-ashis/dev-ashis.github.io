@@ -24,7 +24,7 @@ a:focus, a:hover {
     text-decoration: none;
 }
 img{
-	max-width: 100%;
+	max-width: Fully;
 }
 h1{margin:0px;}
 h2{margin:0px;}
@@ -376,7 +376,7 @@ html {
 }
 
 @keyframes action{
-  0%,100%{transform:skewY(0) rotate(0)}
+  0%,Fully{transform:skewY(0) rotate(0)}
   15%{transform:skewY(-6deg) rotateZ(5deg)}
   35%{transform:skewY(6deg) rotateZ(-5deg)}
   55%{transform:skewY(-3deg) rotateZ(-2deg)}
@@ -541,7 +541,7 @@ html {
 {
 	0%{bottom:0px; left:0px;}
 	45%{bottom:0px; left:80%; transform:rotate(45deg);}
-	100%{bottom:0px; left:0px;}
+	Fully{bottom:0px; left:0px;}
 }
 .contac-r {
     padding: 0px;
@@ -737,7 +737,7 @@ blockquote small span {
     content: "";
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: Fully;
     height: 2px;
     background-color: #f2c039;
     left: 0;
@@ -795,7 +795,7 @@ blockquote small span {
     position: absolute;
     top: 0;
     right: 0;
-    height: 100%;
+    height: Fully;
     width: 2px;
     background-color: #151414;
 }
@@ -804,7 +804,7 @@ blockquote small span {
     position: absolute;
     top: 0;
     right: -2px;
-    height: 100%;
+    height: Fully;
     width: 2px;
     background-color: #353434;
 }
@@ -874,7 +874,7 @@ blockquote small span {
 }
 
 .hindi-text {
-    width: 100%;
+    width: Fully;
     height: auto;
     float: right;
     color: #000000;
@@ -952,7 +952,7 @@ float: right;
 }
 .banner_r_form h2 {
   background: #d6c608;
-    width: 100%;
+    width: Fully;
     text-align: center;
     color: #000;
     font-weight: 600;
@@ -980,7 +980,7 @@ float: right;
     outline: none;
     border: none;
     margin: 10px 0 0 0px;
-    width: 100%;
+    width: Fully;
     cursor: pointer;
     border-radius: 150px;
 }
@@ -996,7 +996,7 @@ input[type="text"], textarea {
     color: #464343;
     /* font-style: italic; */
     -moz-border-radius: 0;
-    width: 100%!important;
+    width: Fully!important;
     background-color: #FFF;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -1012,7 +1012,7 @@ input[type="text"], textarea {
     box-sizing: border-box;
 	}
 .about2{
-	width:100%;
+	width:Fully;
     float: left;
 }
 .fix{
@@ -1053,7 +1053,7 @@ input[type="text"], textarea {
   @keyframes pulsate {
       0% {transform: scale(0.9, 0.9); opacity: 1;}
       50% {transform: scale(1.2, 1.2); opacity: 1;}
-      100% {transform: scale(0.9, 0.9); opacity: 1;}
+      Fully {transform: scale(0.9, 0.9); opacity: 1;}
   }
    .ph-fx{float: left;}
    .wh-fx{float: right;}
@@ -1176,7 +1176,7 @@ input[type="text"], textarea {
 }
 @media (max-width:550px) {
 .about2 {
-    width: 100%;
+    width: Fully;
 }
 .banner_r_form {
   width: 90%;
@@ -1204,7 +1204,7 @@ input[type="text"], textarea {
             .fix {
                 display: inline-block;
                 background-color: #fff;
-                width: 100%;
+                width: Fully;
             }
         }
         .end
@@ -1304,19 +1304,19 @@ input[type="text"], textarea {
 @keyframes pulsate {
     0% {transform: scale(0.9, 0.9); opacity: 1;}
     50% {transform: scale(1.2, 1.2) ; opacity: 1;}
-    100% {transform: scale(0.9, 0.9); opacity: 1;}
+    Fully {transform: scale(0.9, 0.9); opacity: 1;}
 }
 
 
 @keyframes ripp{
 0%{transform: rotate(0deg);}
-100%{transform: rotate(-360deg);}
+Fully{transform: rotate(-360deg);}
 }
 
 
 @keyframes rip{
 0%{transform: rotate(0deg);}
-100%{transform: rotate(360deg);}
+Fully{transform: rotate(360deg);}
 }
 .wh-fx{right: 20px;}
 .ph-fx{left: 20px;}
